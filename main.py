@@ -27,7 +27,7 @@ def newbt(client,callback_query):
     txt=callback_query.data
     if txt=="about":
         callback_query.message.edit(text=f"`Bot`            : [knowhobot](t.me/knowhobot)\n`Creator :` [agentnova](t.me/agentnova)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](https://herokuapp.com/)",
-                        disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
+                        disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup
             [[InlineKeyboardButton("Give Feedback", url="t.me/agentnova")]]))
     elif txt=="src":
         callback_query.message.edit(text="Enjoy...:-D\nhttps://github.com/agentnova/KnowhoBot", disable_web_page_preview=True)
